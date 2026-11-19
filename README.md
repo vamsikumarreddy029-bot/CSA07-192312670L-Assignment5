@@ -1,7 +1,7 @@
 # CSA07 – Assignment 5 (CO5): Measuring Network Performance and Securing Applications
 
-**Student name:** [Fill in]  
-**Register number:** [Fill in]  
+**Student name:** k.vamsi kumar reddy 
+**Register number:** 192312670l 
 **Operating system used for the recorded execution:** Linux x86_64 container (kernel 6.18.57)  
 **Python:** 3.13.5  
 **Cisco Packet Tracer / NS-3:** Not installed in the execution environment; no version claimed  
