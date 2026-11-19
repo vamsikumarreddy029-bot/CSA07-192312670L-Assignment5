@@ -1,0 +1,11 @@
+{
+  "transmission_ms_per_link": 0.12000000000000001,
+  "transmission_ms_all_4_links": 0.48000000000000004,
+  "propagation_ms_one_way": 10.0,
+  "queuing_ms": 1.5,
+  "processing_ms": 0.30000000000000004,
+  "total_ms": 12.280000000000001,
+  "bdp_bits": 80000000.0,
+  "bdp_bytes": 10000000.0,
+  "64KiB_window_max_Mbps": 6.5536
+}

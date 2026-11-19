@@ -1,0 +1,11 @@
+# Evidence index
+- `outputs/B1_traceroute_actual.txt`: actual traceroute command output.
+- `outputs/B1_local_socket_measurements.json`: actual local TCP/UDP socket benchmark.
+- `outputs/B1_trace_metrics.txt`: assignment-supplied sample trace analysis.
+- `outputs/A4_firewall_output.txt`: completed firewall TODO output and swapped-rule comparison.
+- `outputs/B2_simulation_matrix.csv`: Python model sweep (not Packet Tracer/NS-3).
+- `outputs/B3_impairment_matrix.csv`: deterministic impairment model (not tc netem).
+- `outputs/B4_scaling_prediction.json`: model-based doubled-user prediction.
+- `graphs/`: charts with data provenance in titles.
+- `topologies/B2_python_simulation_topology.png`: Python-generated topology illustration, not Packet Tracer.
+- `packet_traces/B1_synthetic_rtp_like_trace.pcap`: synthetic fixture, not a live Wireshark capture.

@@ -1,0 +1,30 @@
+COMPUTER NETWORKS — ASSIGNMENT 5 (CO5)
+Submission package guide
+========================
+
+1. Assignment5_Report_Improved.docx / .pdf
+   Revised report with the original report structure and added visual evidence panels.
+
+2. Task01–Task09, configs/, run_all.py
+   Source code, task folders, configuration and execution entry point.
+
+3. evidence/outputs/
+   Recorded outputs, calculations, CSV matrices and provenance notes.
+   Read EVIDENCE_PROVENANCE.txt before describing any result as measured.
+
+4. evidence/graphs/ and evidence/topologies/
+   Graphs and the conceptual Python simulation topology.
+
+5. evidence/illustrative_terminal_panels_used_in_report/
+   WSL-style illustrative panels used in the report. They are not raw terminal captures.
+
+6. evidence/reference_only_OS_terminal_examples/
+   The two user-provided Operating Systems screenshots. These show page replacement,
+   not Computer Networks experiments; included only as terminal appearance references.
+
+IMPORTANT
+Native Packet Tracer (.pkt), live Wireshark call capture, remote-host wired/Wi-Fi
+iperf3 measurements, and tc netem/namespace output are not fabricated in this package.
+Replace/add genuine local experiment evidence if you execute those tests in your own WSL
+or Packet Tracer environment. Add your student details and working GitHub repository URL
+to the report before submission.

@@ -1,0 +1,6 @@
+$ traceroute -m 5 -w 1 1.1.1.1
+traceroute to 1.1.1.1 (1.1.1.1), 5 hops max, 60 byte packets
+ 1  172.26.36.1 (172.26.36.1)  0.482 ms  0.409 ms  0.382 ms
+ 2  172.26.36.1 (172.26.36.1)  0.378 ms  0.374 ms  0.370 ms
+
+exit_code=0

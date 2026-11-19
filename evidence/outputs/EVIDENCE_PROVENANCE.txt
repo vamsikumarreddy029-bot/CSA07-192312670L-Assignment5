@@ -1,0 +1,1 @@
+B1_synthetic_rtp_like_trace.pcap is a generated RFC-compliant Ethernet/IPv4/UDP PCAP fixture for demonstrating trace inspection. It is NOT captured from a real voice/video call and must not be represented as a Wireshark capture. Open it in Wireshark locally if available.

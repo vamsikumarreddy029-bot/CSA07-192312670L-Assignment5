@@ -1,0 +1,30 @@
+{
+  "basis": "model estimates, not WAN measurement",
+  "baseline": {
+    "bandwidth_Mbps": 100,
+    "one_way_base_delay_ms": 80,
+    "users": 100,
+    "background_download": true,
+    "voice_priority": true,
+    "offered_load_Mbps": 72.56,
+    "utilisation_pct": 72.56,
+    "voice_delay_ms": 82.1,
+    "voice_jitter_ms": 7.53,
+    "packet_loss_pct": 0,
+    "data_throughput_Mbps": 70.0
+  },
+  "doubled_users": {
+    "bandwidth_Mbps": 100,
+    "one_way_base_delay_ms": 80,
+    "users": 200,
+    "background_download": true,
+    "voice_priority": true,
+    "offered_load_Mbps": 107.56,
+    "utilisation_pct": 100.0,
+    "voice_delay_ms": 82.1,
+    "voice_jitter_ms": 7.53,
+    "packet_loss_pct": 7.03,
+    "data_throughput_Mbps": 97.44
+  },
+  "regional_server_note": "replace long-haul RTT with measured regional path RTT; actual intercontinental path not measured in this restricted environment"
+}

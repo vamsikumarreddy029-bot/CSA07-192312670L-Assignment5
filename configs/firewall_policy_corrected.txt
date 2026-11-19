@@ -1,0 +1,10 @@
+# Corrected first-match policy (conceptual order)
+allow tcp 10.1.0.0/16 -> server:22
+ deny tcp any         -> server:22
+allow tcp any         -> server:443
+allow udp approved-resolvers -> server:53   # only if this host serves DNS
+ deny all any         -> any
+
+# The original rule 2 (allow TCP any -> 22) shadowed both the later SSH deny
+# and the restricted 10.1.0.0/16 SSH allow. Restrict SSH first, then deny all
+# other SSH sources. Apply stateful return handling and least privilege.

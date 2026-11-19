@@ -1,0 +1,11 @@
+{
+  "half_open_queue": 1024,
+  "timeout_s": 60,
+  "fill_rate_pps": 17.066666666666666,
+  "four_server_queue": 4096,
+  "four_server_fill_rate_pps": 68.26666666666667,
+  "test_rate_pps": 100,
+  "limit_pps": 20,
+  "accepted_pps": 20,
+  "dropped_or_deferred_pps": 80
+}

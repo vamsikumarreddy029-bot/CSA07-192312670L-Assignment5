@@ -1,0 +1,16 @@
+{
+  "environment": "local loopback on Linux container; not campus/wired/Wi-Fi",
+  "tcp": {
+    "bytes": 12582912,
+    "seconds": 0.0042955809999511985,
+    "throughput_mbps": 23434.151515509457
+  },
+  "udp": {
+    "sent_packets": 10000,
+    "received_packets": 9879,
+    "loss_percent": 1.21,
+    "payload_bytes": 1200,
+    "send_duration_s": 0.06065308200004438,
+    "sender_rate_mbps": 1582.772001593089
+  }
+}

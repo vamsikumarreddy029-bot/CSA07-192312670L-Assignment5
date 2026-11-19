@@ -1,0 +1,5 @@
+A4 firewall: completed; output -> evidence/outputs/A4_firewall_output.txt
+B1 trace metrics: loss=20.0%, delay=42.9ms, jitter=6.6ms, throughput=345.9kbps
+B1 TCP loopback: 23434.15 Mbps; UDP sender rate: 1582.77 Mbps; UDP received 9879/10000
+B2 simulation rows: 11; B3 impairment rows: 9
+A1 total delay: 12.280 ms; 64KiB window throughput: 6.554 Mbps

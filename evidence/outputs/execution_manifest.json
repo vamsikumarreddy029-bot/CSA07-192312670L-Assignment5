@@ -1,0 +1,40 @@
+{
+  "actual_measurements": {
+    "localhost_tcp_udp_sockets": {
+      "bytes": 12582912,
+      "seconds": 0.0042955809999511985,
+      "throughput_mbps": 23434.151515509457,
+      "sent_packets": 10000,
+      "received_packets": 9879,
+      "loss_percent": 1.21,
+      "payload_bytes": 1200,
+      "send_duration_s": 0.06065308200004438,
+      "sender_rate_mbps": 1582.772001593089
+    },
+    "traceroute": "command executed; see B1_traceroute_actual.txt",
+    "ping": "not executed: raw ICMP sockets blocked by host permissions"
+  },
+  "completed_code": {
+    "A4_firewall": true,
+    "B1_metrics": true
+  },
+  "simulations": {
+    "B2": 11,
+    "B3": 9,
+    "B4": true
+  },
+  "unavailable_tools": [
+    "Cisco Packet Tracer",
+    "Wireshark GUI",
+    "TShark",
+    "iperf3",
+    "NS-3"
+  ],
+  "not_performed": [
+    "Packet Tracer .pkt simulation and screenshots",
+    "Wireshark live capture and GUI screenshots",
+    "tc netem kernel impairment (not available/verified)",
+    "wired-versus-wireless LAN measurements",
+    "intercontinental path measurements"
+  ]
+}
