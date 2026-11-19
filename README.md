@@ -56,9 +56,4 @@ Cisco Packet Tracer, Wireshark GUI, TShark, iperf3 and NS-3 were not installed i
 | B3 | Delay/loss matrix and SYN/rate-limit arithmetic | Model executed; not `tc netem` or live attack |
 | B4 | Doubled-load prediction and recommendations | Model-derived; WAN measurements unavailable |
 
-## Before submission
 
-- Fill in student name and register number.
-- Add the actual GitHub repository URL to the report cover page and submission form.
-- The assignment specifically requires a working repository and progressive commits. Use `create_task_commits.sh` to create one commit for each task folder after reviewing the contents; then push to your GitHub repository.
-- Complete the missing Packet Tracer/NS-3 and Wireshark/iperf3 tasks on a machine where those tools are installed if the faculty expects native simulator/capture evidence. This ZIP does not pretend those unavailable experiments were performed.
